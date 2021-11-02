@@ -1,0 +1,96 @@
+@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Lato:wght@300&family=Playfair+Display:ital@1&family=Signika&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  color: #777;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $black;
+  font-family: "Signika", sans-serif;
+}
+
+a {
+  color: $black;
+
+  &:hover {
+    color: $red;
+  }
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.separator {
+  height: 60px;
+  background-image: url(../img/separator.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.separator-white {
+  height: 60px;
+  background-image: url(../img/separator-white.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.btn {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 40px;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: $red;
+
+  &:hover {
+    color: #fff;
+    background-color: #c02a08;
+  }
+}
+
+.btn-gray {
+  color: $black;
+  background-color: #f3f3f3;
+  margin-left: 10px;
+
+  &:hover {
+    color: $black;
+    background-color: rgb(199, 197, 196);
+  }
+}
+
+.container {
+  width: 1222px;
+  margin: 0px auto;
+}
+
+@media (max-width: 560px) {
+  .container {
+    width: 100%;
+    margin: 0px;
+  }
+}
