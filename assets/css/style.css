@@ -143,8 +143,8 @@ header nav.secondary-menu li:first-child::after {
 .legend .l1 {
   width: 170px;
   position: absolute;
-  bottom: 35%;
-  left: 2%;
+  bottom: 15%;
+  left: -2%;
 }
 .legend .l2 {
   width: 200px;
